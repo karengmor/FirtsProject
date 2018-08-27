@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+   <div class="header">
+      <div class="container">
+        <ul class='nav'>
+          
+          <li><%= link_to "WELCOME", root_path %></li>
+          <li>BLOG</li>
+          <li><%= link_to "PORTFOLIO", portfolio_path %></li>
+          <li>ABOUT</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+    </div>
+  </head>
+     
+    
+          
+
+        </div>
+      </div>
+    </div>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+
+
+
+
+<body>
+   
+
+<%= yield %>
+
+</body>
+   
+<div class="clearfix"></div>
+
+    <div class="footer">
+      <div class="container">
+        <p>&copy; Karen Guerrero 2018</p>
+      </div>
+    </div>
+ 
+</html>
